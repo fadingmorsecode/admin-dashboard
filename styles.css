@@ -49,7 +49,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Begins Styles */
+/* Begins Container */
 
 .container {
     display: grid;
@@ -58,16 +58,29 @@ table {
     height: 100vh;
 }
 
+/* Begins Header */
+
 .header {
   background-color: #F6F4D2;
   grid-area: 1 / 2 / 2 / 3;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
 }
 
+.search-icon, 
+.noti-icon {
+	height: 1rem;
+}
 
+.user-img {
+	height: 2.5rem;
+}
 
+.user-img-large {
+	height: 4rem;
+}
 
-
-
+/* Begins Sidebar */
 
 .sidebar {
   background-color: #D4E09B;
@@ -135,7 +148,7 @@ table {
 
 
 
-
+/* Begins Main */
 
 .main-content {
   background-color: #CBDFBD;
