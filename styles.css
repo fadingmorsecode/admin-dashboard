@@ -82,13 +82,65 @@ table {
 
 .header-section-1 {
 	display: grid;
-	grid-template-columns: 0.7fr 6fr 2fr 1fr 3fr;
+	grid-template-columns: 1fr 6fr 2fr 1fr 3fr;
 	align-items: center;
 }
 
 .header-section-2 {
 	display: grid;
-	grid-template-columns: 2.5fr 5fr 5fr 10fr 
+	grid-template-columns: 2.5fr 5fr 2fr 10fr 
+}
+
+.search-icon {
+	justify-self: end;
+}
+
+input[type="search"] {
+	width: 32rem;
+	border-radius: 15px;
+	border: solid 3px #b8b8ff;
+	margin-left: 1.5rem;
+}
+
+.noti-icon {
+	justify-self: end;
+}
+
+.user-img {
+	justify-self: center;
+}
+
+.user-img-large {
+	justify-self: end;
+	align-self: center;
+	margin-right: 1rem;
+}
+
+.greeting-container {
+	align-self: center;
+	margin-left: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.greeting-text,
+.greeting-name,
+.user-name {
+	font-family: 'Barlow', 'sans-serif';
+	font-weight: 600;
+}
+
+.user-name {
+	font-size: 1.1rem;
+}
+
+.greeting-text {
+	font-size: 0.9rem;
+}
+
+.greeting-name {
+	font-size: 1.2rem;
 }
 
 .new-btn,
