@@ -169,6 +169,15 @@ input[type="search"] {
 	font-weight: bold;
 }
 
+.new-btn:hover,
+.upload-btn:hover,
+.share-btn:hover {
+	border: solid 3px black;
+}
+
+
+
+
 .btns-container {
 	grid-column: 4;
 	display: flex;
@@ -283,10 +292,6 @@ input[type="search"] {
 	border-radius: 6px;
 }
 
-.card:hover {
-	transform: scale(1.1);
-}
-
 .title {
 	font-weight: bold;
 }
@@ -313,6 +318,10 @@ gap: 0.5rem;
 
 .card-icons-container img {
 	height: 1.3rem;
+}
+
+.card-icons-container img:hover {
+	background-color: pink;
 }
 
 /* Beings Secondary Cards */
@@ -395,4 +404,6 @@ div p:nth-child(1) {
 div p:nth-child(2) {
 	font-weight: 500;
 }
+
+
 
