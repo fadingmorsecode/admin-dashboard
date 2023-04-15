@@ -323,15 +323,15 @@ gap: 0.5rem;
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
+	overflow: auto;
 }
 
 .announcements-card p {
 	font-family: var(--main-font);
 }
 
-.separator {
-	height: 0.3rem;
-	background-color: grey;
+.sep {
+	border: solid 1.5px grey;
 	border-radius: 15px;
 }
 
