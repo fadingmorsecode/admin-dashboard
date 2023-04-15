@@ -61,10 +61,11 @@ table {
 /* Begins Header */
 
 .header {
-  background-color: #F8F7FF;
+  background-color: #F7FFFC;
   grid-area: 1 / 2 / 2 / 3;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
+  border-bottom: 2px solid lightgrey;
 }
 
 .search-icon, 
@@ -168,7 +169,7 @@ input[type="search"] {
 /* Begins Sidebar */
 
 .sidebar {
-  background-color: #FFD8BE;
+  background-color: #8585FF;
   grid-area: 1 / 1 / 3 / 2;
   display: grid;
   grid-template-rows: 0.8fr 0.5fr 2.6fr 0.5fr 1.8fr 3.8fr;
@@ -228,14 +229,12 @@ input[type="search"] {
 	margin-right: 0.8rem;
 }
 
-
-
-
-
-
 /* Begins Main */
 
 .main-content {
-  background-color: #ffeedd;
+  background-color: #F8F7FF;
   grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  grid-template: 1fr 10fr / 8fr 2fr;
 }
+
