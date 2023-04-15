@@ -74,7 +74,7 @@ table {
 }
 
 .user-img {
-	height: 2.5rem;
+	height: 3rem;
 }
 
 .user-img-large {
@@ -276,7 +276,8 @@ input[type="search"] {
 
 .title, 
 .card p,
-.trending-text {
+.trending-text,
+.trending-card p {
 	font-family: 'Barlow', 'sans-serif';
 }
 
@@ -315,6 +316,10 @@ gap: 0.5rem;
 	border-radius: 6px;
 }
 
+
+/* trending card */
+
+
 .trending-section {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 0.9fr));
@@ -325,6 +330,10 @@ gap: 0.5rem;
 .trending-card {
 	background-color: white;
 	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.8rem;
 }
 
 .trending-text {
@@ -332,4 +341,22 @@ gap: 0.5rem;
 	font-size: 1.1rem;
 }
 
+.trending-card > div {
+	display: flex;
+	gap: 0.8rem;
+	align-items: center;
+	margin-left: 2rem;
+}
+
+.trending-card img {
+	height: 3rem;
+}
+
+div p:nth-child(1) {
+	font-weight: bold;
+}
+
+div p:nth-child(2) {
+	font-weight: 500;
+}
 
