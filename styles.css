@@ -238,12 +238,16 @@ input[type="search"] {
   grid-template: 1fr 10fr / 6fr 2fr;
 }
 
-.main-content > div {
+.announcements-text,
+.yp-text {
 	align-self: center;
-	margin-left: 2rem;
 	font-family: 'Barlow', 'sans-serif';
 	font-weight: 600;
 	font-size: 1.1rem;
+}
+
+.yp-text {
+	margin-left: 2rem;
 }
 
 .primary-cards {
@@ -271,7 +275,8 @@ input[type="search"] {
 }
 
 .title, 
-.card p {
+.card p,
+.trending-text {
 	font-family: 'Barlow', 'sans-serif';
 }
 
@@ -290,6 +295,41 @@ gap: 0.5rem;
 
 .card-icons-container img {
 	height: 1rem;
+}
+
+/* Beings Secondary Cards */
+
+.secondary-cards {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.announcements-card-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 0.9fr));
+}
+
+.announcements-card {
+	background-color: white;
+	height: 16rem;
+	border-radius: 6px;
+}
+
+.trending-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 0.9fr));
+	grid-template-rows: 1fr 8fr;
+	padding-bottom: 2rem;
+}
+
+.trending-card {
+	background-color: white;
+	border-radius: 6px;
+}
+
+.trending-text {
+	font-weight: 600;
+	font-size: 1.1rem;
 }
 
 
