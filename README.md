@@ -1,5 +1,5 @@
 # admin-dashboard
-https://cobaltjester.github.io/admin-dashboard/
+https://fadingmorsecode.github.io/admin-dashboard/
 # Project Summary:
 This project aims to resemble an admin dashboard. Its purpose is to demonstrate understanding and ability to use css grid which was previously learned in the Odin Project curriculum. The dashboard follows a design template provided by The Odin Project. 
 # Goals:
